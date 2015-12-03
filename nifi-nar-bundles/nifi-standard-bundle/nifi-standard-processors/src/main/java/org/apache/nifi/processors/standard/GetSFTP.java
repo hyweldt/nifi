@@ -81,6 +81,7 @@ public class GetSFTP extends GetFileTransfer {
         properties.add(SFTPTransfer.USE_KEEPALIVE_ON_TIMEOUT);
         properties.add(SFTPTransfer.USE_COMPRESSION);
         properties.add(SFTPTransfer.USE_NATURAL_ORDERING);
+        properties.add(SFTPTransfer.MIN_AGE);
         this.properties = Collections.unmodifiableList(properties);
     }
 
